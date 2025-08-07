@@ -14,6 +14,7 @@
     pkgs.python3
     pkgs.sudo
     pkgs.nmap
+
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -46,6 +47,8 @@
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [ ".idx/dev.nix" "README.md" ];
+        # Install zap-cli using pip
+        install-zap-cli = "pip install zap-cli";
       };
       # Runs when the workspace is (re)started
       onStart = {
