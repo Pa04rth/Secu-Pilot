@@ -1,3 +1,4 @@
+// backend>routes>api.ts
 const express = require('express');
 const router = express.Router();
 import {startNewScan} from "../controllers/scan.controller"

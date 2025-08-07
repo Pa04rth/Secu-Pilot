@@ -1,3 +1,4 @@
+// frontend >lib>api.ts
 export async function startScan(url: string): Promise<any> {
     try {
       const response = await fetch('http://localhost:3001/api/scan', {
