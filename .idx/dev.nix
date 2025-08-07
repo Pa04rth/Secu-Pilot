@@ -12,6 +12,8 @@
     # pkgs.nodePackages.nodemon
     pkgs.openssh
     pkgs.python3
+    pkgs.sudo
+    pkgs.nmap
   ];
   # Sets environment variables in the workspace
   env = {};
